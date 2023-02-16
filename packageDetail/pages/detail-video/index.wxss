@@ -1,0 +1,61 @@
+/* pages/detail-video/index.wxss */
+page {
+  padding-top: 225px;
+}
+
+.video {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  /* height: 225px; */
+}
+.info {
+  padding: 20rpx;
+}
+
+.info .title {
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+.info .desc, .info .other {
+  font-size: 30rpx;
+  margin-top: 15rpx;
+  color: #666;
+}
+.recommend .title{
+  padding: 0 20rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.item{
+  display: flex;
+  margin: 0 20rpx;
+}
+.videoLeft{
+  position: relative;
+  width: 250rpx;
+}
+.ima{
+  background-color: pink;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.videoLeft image{
+  width: 250rpx;
+  display: block;
+}
+.videoRight{
+  padding-left: 20rpx;
+}
+.nickName{
+  font-size: 26rpx;
+  color: #666;
+}
+.info .count{
+  font-size: 26rpx;
+  position: absolute;
+  bottom: 40rpx;
+  right: 0;
+  color: white;
+}

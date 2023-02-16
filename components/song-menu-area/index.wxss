@@ -1,0 +1,20 @@
+/* components/song-menu-area/index.wxss */
+.menu-list {
+  width: 100vw;/*默认页面是有10px的padding，给这个模块单独设置让他没有padding*/
+  white-space: nowrap;
+  position: relative;
+  left: -20rpx;
+}
+
+.menu-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 220rpx;
+
+  margin-left: 20rpx;
+}
+
+.menu-item:last-of-type {
+  margin-right: 20rpx;
+}
+
